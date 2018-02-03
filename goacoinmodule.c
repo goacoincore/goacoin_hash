@@ -31,7 +31,7 @@ static PyObject *goacoin_getpowhash(PyObject *self, PyObject *args)
     return value;
 }
 
-static PyMethodDef goacoinMethods[] = {
+static PyMethodDef GoaCoinMethods[] = {
     { "getPoWHash", goacoin_getpowhash, METH_VARARGS, "Returns the proof of work hash using goacoin hash" },
     { NULL, NULL, 0, NULL }
 };
