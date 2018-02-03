@@ -37,7 +37,7 @@ static PyMethodDef goacoinMethods[] = {
 };
 
 #if PY_MAJOR_VERSION >= 3
-static struct PyModuleDef goacoinModule = {
+static struct PyModuleDef GoaCoinModule = {
     PyModuleDef_HEAD_INIT,
     "goacoin_hash",
     "...",
