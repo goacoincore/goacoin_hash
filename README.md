@@ -1,0 +1,1 @@
+# goacoin_hash
